@@ -1,0 +1,151 @@
+.containerss .header{
+    margin-top: 10px;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.containerss .logo img{
+    margin-left: 10px;
+    margin-top: 10px;
+    float: left;
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+}
+.containerss .logo span{
+    float: left;
+    margin: 35px;
+    color: orange;
+    font-weight: bold;
+    font-size: 18px;
+}
+.containerss .logo{
+    width: 30%;
+    height: 100px;
+    float: left;
+}
+.containerss .search{
+    color: orange;
+    margin-top: 35px;
+    text-align: center;
+    align-items: center;
+    width: 30%;
+    height: 100px;
+    float: left;
+}
+.containerss .search input{
+    outline-color: orange;
+    margin-left: 15px;
+    border: none;
+    padding:10px;
+    padding-left: 30px;
+    border-radius: 8px;
+    border-bottom: orange;
+}
+.containerss .search input::placeholder{
+    font-size: 17px;
+    color: orange;
+}
+.containerss .search i{
+    font-size: large;
+    margin-top: 3px;
+    margin-left: 15px;
+    font-weight: bold;
+    padding: 5px;
+    position: absolute;
+}
+.containerss .menu  {
+    margin-left: 60px;
+    color: orange;
+    font-weight: bold;
+    margin-top: 25px;
+    width: 35%;
+    height: 100px;
+    float: left;
+}
+.containerss .menu ul{
+    float: left;
+}
+.containerss .menu ul li{
+    padding-left: 50px;
+    float: left;
+    list-style: none;
+}
+/*-------list product------*/
+.containerss .listproduct{
+    width: 100%;
+    height: auto;
+    float: left;
+}
+.containerss .listproduct .product{
+    margin-top: 50px;
+    margin-left: 20px;
+    text-align: center;
+    align-items: center;
+    float: left;
+    width: 23%;
+}
+.containerss .listproduct .product .image img{
+    height: auto;
+    width: 250px;
+}
+.containerss .listproduct .product .content{
+    float: left;
+}
+.containerss .listproduct .product .content span{
+    padding:10px;
+    float: left;
+    color: orange;
+    font-weight: bold;
+    text-align: center;
+    align-items: center;
+    margin-left: 25px;
+}
+.containerss .listproduct .product .content button{
+    outline: none;
+    margin-top: 25px;
+    background-color: orange;
+    margin-left: 5px;
+    font-weight: bold;
+    height: 35px;
+    width: 165px;
+    color:white;
+    border-color: orange;
+    cursor: pointer;
+    border-radius: 8px;
+}
+.containerss .listproduct .product .content button i {
+    padding-right: 10px;
+}
+/*---------footer----------*/
+.containerss .footer{
+    margin: 30px;
+    width: 100%;
+    float: left;
+}
+.containerss .footer .name{
+    float: left;
+    width: 40%;
+}
+.containerss .footer .name i{
+    color: orange;
+    padding-right: 10px;
+}
+.containerss .footer h2{
+    color: orange;
+}
+.containerss .footer .contact{
+    width: 40%;
+    float: left;
+}
+.containerss .footer .contact i{
+    color: orange;
+    padding-right: 10px;
+}
+.containerss .footer .payment{
+    float: left;
+}
+.containerss .footer .payment img{
+    width: 150px;
+    height: auto;
+}
